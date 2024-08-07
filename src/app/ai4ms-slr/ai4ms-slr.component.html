@@ -1,0 +1,13 @@
+<div>
+  <h1>Lista Completa de Artículos Seleccionados</h1>
+  <p>Esta página proporciona la lista completa de los artículos seleccionados tras aplicar los criterios de inclusión y exclusión. Estos artículos se centran en la integración de la inteligencia artificial en el diseño de microservicios, abarcando estudios de caso, propuestas de nuevos modelos y revisiones sistemáticas.</p>
+  <ul>
+    <li *ngFor="let article of articles">
+      <h2>{{ article.title }}</h2>
+      <p><strong>Autores:</strong> {{ article.authors }}</p>
+      <p><strong>Publicación:</strong> {{ article.publication }}, {{ article.year }}</p>
+      <p><strong>Resumen:</strong> {{ article.summary }}</p>
+      <p><a [href]="article.link" target="_blank">Leer más</a></p>
+    </li>
+  </ul>
+</div>
