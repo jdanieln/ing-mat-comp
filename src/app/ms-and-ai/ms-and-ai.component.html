@@ -1,0 +1,15 @@
+<div>
+  <h1>Full List of Selected Articles</h1>
+  <p>
+    This page provides the complete list of articles selected after applying the inclusion and exclusion criteria. These articles focus on the integration of artificial intelligence in microservices design, covering case studies, proposals for new models and systematic reviews.
+  </p>
+  <ul>
+    <li *ngFor="let article of articles">
+      <h2>{{ article.title }}</h2>
+      <p><strong>Authors:</strong> {{ article.authors }}</p>
+      <p><strong>Publication:</strong> {{ article.publication }}, {{ article.year }}</p>
+      <p><strong>Summary:</strong> {{ article.summary }}</p>
+      <p><a [href]="article.link" target="_blank">Leer más</a></p>
+    </li>
+  </ul>
+</div>
