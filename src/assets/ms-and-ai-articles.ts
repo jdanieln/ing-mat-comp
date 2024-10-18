@@ -229,43 +229,121 @@ export const ARTICLES: Article[] = [
     link: 'https://arxiv.org/abs/2403.01709'
   },
   {
-    title: '',
-    authors: '',
-    publication: '',
-    year: 0,
-    summary: '',
-    link: ''
+    title: 'AI-Driven Partitioning Framework for Migrating Monolithic Applications to Microservices',
+    authors: 'Ramamoorthi, V.',
+    publication: 'Journal of Computational Social Dynamics',
+    year: 2023,
+    summary: 'Microservice Architecture (MSA) has become a standard for designing scalable and flexible enterprise applications. However, the process of migrating monolithic systems to microservices is fraught with challenges, including the risk of creating distributed monoliths and managing complex distributed transactions. To address these issues, we present CARGO (Context-sensitive lAbel pRopaGatiOn), an AI-guided framework that improves microservice partitioning through the use of System Dependency Graphs (SDGs) and a context-sensitive label propagation algorithm. SDGs enable detailed modeling of both intra-service and inter-service dependencies, capturing critical aspects like call-return, data, heap, and transactional edges. By iteratively refining partition boundaries, CARGO minimizes inter-service coupling, reduces the occurrence of distributed transactions, and enhances service cohesion. Evaluations conducted on benchmark applications such as Daytrader and JPetStore demonstrate that CARGO significantly outperforms state-of-the-art tools like Mono2Micro and CoGCN in terms of transaction purity, latency, throughput, and architectural quality. This work establishes a foundation for automating the migration of monolithic applications into efficient, scalable microservice architectures and opens avenues for applying CARGO to other programming environments like Python and .NET.',
+    link: 'https://vectoral.org/index.php/JCSD/article/view/131'
   },
   {
-    title: '',
-    authors: '',
-    publication: '',
-    year: 0,
-    summary: '',
-    link: ''
+    title: 'Machine learning-based auto-scaling for containerized applications',
+    authors: 'Imdoukh, M., Ahmad, I., & Alfailakawi, M. G.',
+    publication: 'Neural Computing and Applications',
+    year: 2020,
+    summary: 'Containers are shaping the new era of cloud applications due to their key benefits such as lightweight, very quick to launch, consuming minimum resources to run an application which reduces cost, and can be easily and rapidly scaled up/down as per workload requirements. However, container-based cloud applications require sophisticated auto-scaling methods that automatically and in a timely manner provision and de-provision cloud resources without human intervention in response to dynamic fluctuations in workload. To address this challenge, in this paper, we propose a proactive machine learning-based approach to perform auto-scaling of Docker containers in response to dynamic workload changes at runtime. The proposed auto-scaler architecture follows the commonly abstracted four steps: monitor, analyze, plan, and execute the control loop. The monitor component continuously collects different types of data (HTTP request statistics, CPU, and memory utilization) that are needed during the analysis and planning phase to determine proper scaling actions. We employ in analysis phase a concise yet fast, adaptive, and accurate prediction model based on long short-term memory (LSTM) neural network to predict future HTTP workload to determine the number of containers needed to handle requests ahead of time to eliminate delays caused by starting or stopping running containers. Moreover, in the planning phase, the proposed gradually decreasing strategy avoids oscillations which happens when scaling operations are too frequent. Experimental results using realistic workload show that the prediction accuracy of LSTM model is as accurate as auto-regression integrated moving average model but offers 600 times prediction speedup. Moreover, as compared with artificial neural network model, LSTM model performs better in terms of auto-scaler metrics related to provisioning and elastic speedup. In addition, it was observed that when LSTM model is used, the predicted workload helped in using the minimum number of replicas to handle future workload. In the experiments, the use of GDS showed promising results in keeping the desired performance at reduced cost to handle cases with sudden workload increase/decrease.',
+    link: 'https://link.springer.com/article/10.1007/s00521-019-04507-z'
   },
   {
-    title: '',
-    authors: '',
-    publication: '',
-    year: 0,
-    summary: '',
-    link: ''
+    title: 'Artificial Intelligence Enabled Microservice Container Orchestration to increase efficiency and scalability for High Volume Transaction System in Cloud Environment',
+    authors: 'Singh, A., & Aggarwal, A.',
+    publication: 'Journal of Artificial Intelligence Research and Applications',
+    year: 2023,
+    summary: 'The rapid evolution of microservice architecture and container orchestration in cloud environments has spurred interest in leveraging Artificial Intelligence (AI) to enhance the efficiency and effectiveness of these technologies. This research explores the intersection of AI, microservices, and container orchestration, investigating the potential benefits and challenges of integrating AI into the orchestration of microservices in cloud environments. Through a comprehensive review of the existing literature, the paper delves into the current state of microservice architecture, container orchestration tools, and the role of AI in cloud computing.\n' +
+      '\n' +
+      'The methodology involves a careful examination of AI models and algorithms suitable for microservice container orchestration, along with practical experimentation to showcase the impact of AI on scalability, reliability, and performance. Real-world case studies provide insights into how organizations have successfully implemented AI in microservices and container orchestration, offering tangible examples of the advantages and potential pitfalls.\n' +
+      '\n' +
+      'The results and discussion section presents findings from the study, comparing and contrasting with existing literature to draw meaningful conclusions. Additionally, the paper addresses challenges in integrating AI with microservice container orchestration and proposes future directions for research in this dynamic and rapidly evolving field. In conclusion, this research underscores the importance of AI in optimizing microservice container orchestration in cloud environments. The findings contribute to the broader understanding of how AI technologies can be harnessed to unlock new possibilities and address challenges in the deployment and management of microservices in the cloud.',
+    link: 'https://aimlstudies.co.uk/index.php/jaira/article/view/23'
   },
   {
-    title: '',
-    authors: '',
-    publication: '',
-    year: 0,
-    summary: '',
-    link: ''
+    title: 'ACM Computing Surveys (CSUR)',
+    authors: 'Zhong, Z., Xu, M., Rodriguez, M. A., Xu, C., & Buyya, R.',
+    publication: 'ACM Computing Surveys (CSUR)',
+    year: 2022,
+    summary: 'Containerization is a lightweight application virtualization technology, providing high environmental consistency, operating system distribution portability, and resource isolation. Existing mainstream cloud service providers have prevalently adopted container technologies in their distributed system infrastructures for automated application management. To handle the automation of deployment, maintenance, autoscaling, and networking of containerized applications, container orchestration is proposed as an essential research problem. However, the highly dynamic and diverse feature of cloud workloads and environments considerably raises the complexity of orchestration mechanisms. Machine learning algorithms are accordingly employed by container orchestration systems for behavior modeling and prediction of multi-dimensional performance metrics. Such insights could further improve the quality of resource provisioning decisions in response to the changing workloads under complex environments. In this article, we present a comprehensive literature review of existing machine learning-based container orchestration approaches. Detailed taxonomies are proposed to classify the current researches by their common features. Moreover, the evolution of machine learning-based container orchestration technologies from the year 2016 to 2021 has been designed based on objectives and metrics. A comparative analysis of the reviewed techniques is conducted according to the proposed taxonomies, with emphasis on their key characteristics. Finally, various open research challenges and potential future directions are highlighted.',
+    link: 'https://dl.acm.org/doi/full/10.1145/3510415'
   },
   {
-    title: '',
-    authors: '',
+    title: 'Research on Intelligent Monitoring Scheme for Microservice Application Systems',
+    authors: 'Jiang, Y., Zhang, N., & Ren, Z.',
+    publication: '2020 International Conference on Intelligent Transportation, Big Data & Smart City (ICITBS)',
+    year: 2020,
+    summary: 'In order to effectively monitor the operation of multiple microservices in the microservice architecture system, to find out problems in time for early warning and to propose solutions and other problems, a set of intelligent monitoring scheme for the microservice application system is proposed, which is more effective to overcome the system monitoring management difficulties caused by the distributed architecture strategy of the microservice application system. The planning and design of the whole scheme start from the analysis of the microservice architecture, through the analysis and comparison of the microservice system monitoring system and various microservice application system monitoring schemes, and further combining the push-pull mode selection of the monitoring system with the analysis of the intelligent alarm scheme. The improvement of the monitoring mode of the microservice application system from the local triggering alarm to the intelligent alarm is finally realized. Experimental results present the plan can more systematically consider the data of all monitoring levels, then analyze and summarize, and finally achieve more timely, more accurately and more effectively monitoring and earlier warning of the microservice application system.',
+    link: 'https://ieeexplore.ieee.org/abstract/document/9109991'
+  },
+  {
+    title: 'A Microservices Architecture for Reactive and Proactive Fault Tolerance in IoT Systems',
+    authors: 'Power, A., & Kotonya, G.',
+    publication: '2018 IEEE 19th International Symposium on" A World of Wireless, Mobile and Multimedia Networks"(WoWMoM)',
+    year: 2018,
+    summary: 'Providing fault-tolerance (FT) support to Internet of Things (IoT) systems is an open challenge, with many implementations providing static, tightly coupled FT support that does not adapt and evolve like IoT systems do. This paper proposes a pluggable framework based on a microservices architecture that implements FT support as two complementary microservices: one that uses complex event processing for realtime FT detection, and another that uses online machine learning to detect fault patterns and pre-emptively mitigate faults before they are activated. We provide an early evaluation of how our framework can handle a real-world scenario.',
+    link: 'https://ieeexplore.ieee.org/abstract/document/8449789'
+  },
+  {
+    title: 'Sage: practical and scalable ML-driven performance debugging in microservices',
+    authors: 'Gan, Y., Liang, M., Dev, S., Lo, D., & Delimitrou, C.',
+    publication: 'Proceedings of the 26th ACM International Conference on Architectural Support for Programming Languages and Operating Systems',
+    year: 2021,
+    summary: 'Cloud applications are increasingly shifting from large monolithic services to complex graphs of loosely-coupled microservices. Despite the advantages of modularity and elasticity microservices offer, they also complicate cluster management and performance debugging, as dependencies between tiers introduce backpressure and cascading QoS violations. Prior work on performance debugging for cloud services either relies on empirical techniques, or uses supervised learning to diagnose the root causes of performance issues, which requires significant application instrumentation, and is difficult to deploy in practice.\n' +
+      'We present Sage, a machine learning-driven root cause analysis system for interactive cloud microservices that focuses on practicality and scalability. Sage leverages unsupervised ML models to circumvent the overhead of trace labeling, captures the impact of dependencies between microservices to determine the root cause of unpredictable performance online, and applies corrective actions to recover a cloud service’s QoS. In experiments on both dedicated local clusters and large clusters on Google Compute Engine we show that Sage consistently achieves over 93% accuracy in correctly identifying the root cause of QoS violations, and improves performance predictability.',
+    link: 'https://dl.acm.org/doi/abs/10.1145/3445814.3446700'
+  },
+  {
+    title: 'Models and Technologies for Autoscaling Based on Machine Learning for Microservices Architecture',
+    authors: 'Zubov, D., Kupin, A., Kosei, M., & Holiver, V.',
     publication: '',
-    year: 0,
-    summary: '',
-    link: ''
+    year: 2024,
+    summary: 'The subject of the research in the article is machine learning processes in web service systems used for providing online services. The subject of the study is methods and tools for auto-scaling these web services using machine learning. The evolution of web services, their structure including development history, scaling options, key concepts of microservices architecture, and general principles of artificial intelligence and machine learning are analyzed, providing an important foundation for understanding technological innovations and potential enhancements for web services. The most significant aspects of applying machine learning in microservices architecture are identified, including various design patterns and machine learning models, which form the basis for improving the efficiency and capabilities of complex systems. Relevant mathematical models and necessary software are proposed.',
+    link: 'https://elibrary.kdpu.edu.ua/handle/123456789/10370'
+  },
+  {
+    title: 'Sinan: ML-based and QoS-aware resource management for cloud microservices',
+    authors: 'Zhang, Y., Hua, W., Zhou, Z., Suh, G. E., & Delimitrou, C.',
+    publication: 'Proceedings of the 26th ACM international conference on architectural support for programming languages and operating systems',
+    year: 2021,
+    summary: 'Cloud applications are increasingly shifting from large monolithic services, to large numbers of loosely-coupled, specialized microservices. Despite their advantages in terms of facilitating development, deployment, modularity, and isolation, microservices complicate resource management, as dependencies between them introduce backpressure effects and cascading QoS violations.\n' +
+      'We present Sinan, a data-driven cluster manager for interactive cloud microservices that is online and QoS-aware. Sinan leverages a set of scalable and validated machine learning models to determine the performance impact of dependencies between microservices, and allocate appropriate resources per tier in a way that preserves the end-to-end tail latency target. We evaluate Sinan both on dedicated local clusters and large-scale deployments on Google Compute Engine (GCE) across representative end-to-end applications built with microservices, such as social networks and hotel reservation sites. We show that Sinan always meets QoS, while also maintaining cluster utilization high, in contrast to prior work which leads to unpredictable performance or sacrifices resource efficiency. Furthermore, the techniques in Sinan are explainable, meaning that cloud operators can yield insights from the ML models on how to better deploy and design their applications to reduce unpredictable performance.',
+    link: 'https://dl.acm.org/doi/abs/10.1145/3445814.3446693'
+  },
+  {
+    title: 'Robust Resource Scaling of Containerized Microservices with Probabilistic Machine learning',
+    authors: 'Kang, P., & Lama, P.',
+    publication: '2020 IEEE/ACM 13th International Conference on Utility and Cloud Computing (UCC)',
+    year: 2020,
+    summary: 'Large-scale web services are increasingly being built with many small modular components (microservices), which can be deployed, updated and scaled seamlessly. These microservices are packaged to run in a lightweight isolated execution environment (containers) and deployed on computing resources rented from cloud providers. However, the complex interactions and the contention of shared hardware resources in cloud data centers pose significant challenges in managing web service performance. In this paper, we present RScale, a robust resource scaling system that provides end-to-end performance guarantee for containerized microservices deployed in the cloud. RScale employs a probabilistic machine learning-based performance model, which can quickly adapt to changing system dynamics and directly provide confidence bounds in the predictions with minimal overhead. It leverages multi-layered data collected from container-level resource usage metrics and virtual machine-level hardware performance counter metrics to capture changing resource demands in the presence of multi-tenant performance interference. We implemented and evaluated RScale on NSF Cloud\'s Chameleon testbed using KVM for virtualization, Docker Engine for containerization and Kubernetes for container orchestration. Experimental results with an open-source microservices benchmark, Robot Shop, demonstrate the superior prediction accuracy and adaptiveness of our modeling approach compared to popular machine learning techniques. RScale meets the performance SLO (service-level-objective) targets for various microservice workflows even in the presence of multi-tenant performance interference and changing system dynamics.',
+    link: 'https://ieeexplore.ieee.org/abstract/document/9302780'
+  },
+  {
+    title: 'AI Techniques in the Microservices Life-Cycle: A Survey',
+    authors: 'Moreschini, S., Pour, S., Lanese, I., Balouek-Thomert, D., Bogner, J., Li, X., ... & Taibi, D.',
+    publication: 'arXiv preprint arXiv:2305.16092',
+    year: 2023,
+    summary: 'Microservices is a popular architectural style for the development of distributed software, with an emphasis on modularity, scalability, and flexibility. Indeed, in microservice systems, functionalities are provided by loosely coupled, small services, each focusing on a specific business capability. Building a system according to the microservices architectural style brings a number of challenges, mainly related to how the different microservices are deployed and coordinated and how they interact. In this paper, we provide a survey about how techniques in the area of Artificial Intelligence have been used to tackle these challenges.',
+    link: 'https://arxiv.org/abs/2305.16092'
+  },
+  {
+    title: 'Online machine learning for cloud resource provisioning of microservice backend systems',
+    authors: 'Alipour, H., & Liu, Y.',
+    publication: '2017 IEEE International Conference on Big Data (Big Data)',
+    year: 2017,
+    summary: 'Microservices are bundled and generating traffic on the backend systems that need to scale on demand. When microservices generate variant and unexpected, the challenge is to classify the workload on the backend systems and adjust the scaling policy to reflect the resource demand timely and accurately. In this paper, we propose a microservice architecture that encapsulates functions of monitoring metrics and learning workload pattern. Then this service architecture is used to predict the future workload for decision making on resource provisioning. We deploy two machine learning algorithms and predict the resource demand of the backend systems of microservices emulated by a Netflix workload benchmark application. This service architecture presents an integrated solution of implementing self-managing cloud data services under variant workload.',
+    link: 'https://ieeexplore.ieee.org/abstract/document/8258201'
+  },
+  {
+    title: 'Microservice Design Space Analysis and Decision Documentation: A Case Study on API Management',
+    authors: 'Haselböck, S., Weinreich, R., Buchgeher, G., & Kriechbaum, T.',
+    publication: '2018 IEEE 11th Conference on Service-Oriented Computing and Applications (SOCA)',
+    year: 2018,
+    summary: 'Design space analysis is a method for identifying and organizing potential design options and related concepts. So far, we have used decision models for the design space analysis of various areas of microservice design. Based on the feedback we have received, we refine our approach for design space analysis and extend it to support decision documentation. To validate the refined design space analysis approach and the approach we developed for decision documentation, we conduct a case study of microservice API management together with an industry partner. We present the identified design spaces and decision models created during the design space analysis, and show how the decision models were used for decision documentation. In addition, we draw general conclusions from applying the presented approach and concepts in an industrial context.',
+    link: 'https://ieeexplore.ieee.org/abstract/document/8599572'
+  },
+  {
+    title: 'Monitoring Resources of Machine Learning Engine In Microservices Architecture\n',
+    authors: 'Parekh, N., Kurunji, S., & Beck, A.',
+    publication: '2018 IEEE 9th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON)',
+    year: 2018,
+    summary: 'Microservices architecture facilitates building distributed scalable software products, usually deployed in a cloud environment. Monitoring microservices deployed in a Kubernetes orchestrated distributed advanced analytics machine learning engines is at the heart of many cloud resource management solutions. In addition, measuring resource utilization at more granular level such as per query or sub-query basis in an MPP Machine Learning Engine (MLE) is key to resource planning and is also the focus of our work. In this paper we propose two mechanisms to measure resource utilization in Teradata Machine Learning Engine (MLE). First mechanism is the Cluster Resource Monitoring (CRM). CRM is a high-level resource measuring mechanism for IT administrators and analytics users to visualize, plot, generates alerts and perform live and historical-analytics on overall cluster usage statistics. Second mechanism is the Query Resource Monitoring (QRM). QRM enables IT administrators and MLE users to measure compute resource utilization per individual query and its sub-queries. When query takes long time, QRM provides insights. This is useful to identify expensive phases within a query that tax certain resources more and skew the work distribution. We show the results of proposed mechanisms and highlight use-cases.',
+    link: 'https://ieeexplore.ieee.org/abstract/document/8614791/'
   }
 ];
